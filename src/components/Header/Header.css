@@ -1,0 +1,25 @@
+.header {
+  /* display: block; */
+  width: 100%;
+  /* height: auto; */
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  /* padding-right: 10px; */
+  /* margin-right: 10px; */
+}
+
+
+
+h1 {
+  font-size: 3rem;
+  width: 100%;
+}
+
+hr {
+  width: 60%;
+}
+
+.spacer {
+  margin: 10px;
+}
