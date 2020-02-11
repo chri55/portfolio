@@ -1,0 +1,63 @@
+/* Index page specific css, not layout. */
+.index-container {
+  padding: 20px;
+  margin: 0 auto;
+  width: 80%;
+  /* height: auto; */
+}
+
+.showOnHover {
+  display: absolute;
+}
+
+/* .project {
+  flex-basis: 400px;
+  flex: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  height: auto;
+  border: 1px solid red;
+  border-radius: 30px;
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.2);
+} */
+
+.project img {
+  /* height: 40%; */
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.tags {
+  list-style-type: none;
+  margin: 2px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  padding: 3px;
+  background-color: rgba(0, 220, 255, 0.2);
+  border-radius: 3px;
+  color: rgba(0, 0, 255, 0.7);
+  margin: 6px;
+}
+
+@media screen and (min-width: 800px) {
+  .portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .project {
+    position: relative;
+    width: calc(50% - (1.2em * 2));
+    padding: 1.2em;
+    margin: 0;
+    /* margin: 20px; */
+  }
+}

@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import Helmet from "react-helmet";
 import Layout from "../layout";
 import About from "../components/About/About";
-import config from "../../data/SiteConfig";
 import portfolioItems from "../components/Portfolio/Portfolio";
+import config from "../../data/SiteConfig";
+import "./index.css"
 
 function addTags(tags) {
   console.log(tags);
