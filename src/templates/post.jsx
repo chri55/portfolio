@@ -1,7 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
-import Layout from "../layout";
+import MainLayout from "../layout/MainLayout";
 import UserInfo from "../components/UserInfo/UserInfo";
 import Disqus from "../components/Disqus/Disqus";
 import PostTags from "../components/PostTags/PostTags";
@@ -23,14 +23,14 @@ export default class PostTemplate extends React.Component {
     }
 
     return (
-      <Layout>
+      <MainLayout>
         <div>
           <Helmet>
             <title>{`${post.title} | ${config.siteTitle}`}</title>
           </Helmet>
           <SEO postPath={slug} postNode={postNode} postSEO />
           <div>
-            <h1>{post.title}</h1>
+            <h2>{post.title}</h2>
             <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
             <div className="post-meta">
               <PostTags tags={post.tags} />
@@ -41,7 +41,7 @@ export default class PostTemplate extends React.Component {
             <Footer config={config} />
           </div>
         </div>
-      </Layout>
+      </MainLayout>
     );
   }
 }

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
-import Layout from "../layout";
+import MainLayout from "../layout/MainLayout";
 import About from "../components/About/About";
 import portfolioItems from "../components/Portfolio/Portfolio";
 import config from "../../data/SiteConfig";
@@ -41,7 +41,7 @@ function renderPortfolio() {
 class IndexPage extends Component {
   render() {
     return (
-      <Layout>
+      <MainLayout>
         <div className="index-container">
           <Helmet title={ `${config.siteTitle}` } />
           <p>Below are a few of the projects I've worked on!</p>
@@ -49,7 +49,7 @@ class IndexPage extends Component {
             {renderPortfolio()}
           </div>
         </div>
-      </Layout>
+      </MainLayout>
     );
   }
 }
