@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Helmet from "react-helmet";
+import { Link } from "gatsby";
 import MainLayout from "../layout/MainLayout";
 import About from "../components/About/About";
 import portfolioItems from "../components/Portfolio/Portfolio";
@@ -19,12 +20,25 @@ function addTags(tags) {
 }
 
 function renderPortfolio() {
-  return portfolioItems.map(({index, title, synopsis, description, link, repo, previewImageLink, tags}) => {
+  return portfolioItems.map(({index, title, synopsis, description, link, repo, previewImageLink, tags, slug}) => {
     console.log(title);
+    const args = {
+      index,
+      title,
+      synopsis,
+      description,
+      link,
+      repo,
+      previewImageLink,
+      tags,
+      slug,
+    };
     return (
       <div className="project" key={`key-${title.split()[0]}`}>
         <img src={`${previewImageLink}`} alt={`Screenshot of ${title}`} className="preview"/>
-        <h3 className="projectName">{ title }</h3>
+        <Link to={`/portfolio/${slug}/`} state={{args}}>
+          <h3 className="projectName">{ title }</h3>
+        </Link>
         <p><span className="synopsis">{ synopsis }</span></p>
         <p className="description">{ description }</p>
         <a href={`${ link }`}>Link to project</a>

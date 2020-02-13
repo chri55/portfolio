@@ -10,6 +10,7 @@ const portfolioItems = [
     previewImageLink: "https://source.unsplash.com/random/1920x1080",
     repo: "Private for now",
     tags: ["JavaScript", "HTML", "CSS", "D3.js", "Python", "Django", "Amazon Web Services"],
+    slug: "search-evacuate-simulator",
   },
   {
     index: 2,
@@ -20,6 +21,7 @@ const portfolioItems = [
     previewImageLink: "https://source.unsplash.com/random/1920x1080",
     repo: "https://github.com/chri55/club405",
     tags: ["JavaScript", "HTML", "CSS", "Python", "Jupyter Lab"],
+    slug: "club-405",
   }
 ];
 
