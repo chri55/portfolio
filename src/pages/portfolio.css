@@ -1,0 +1,56 @@
+h2 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.2em;
+
+}
+
+hr.divider {
+  width: 50%;
+  align: left;
+}
+
+.portfolio-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.splash {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.featured {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  .portfolio-container{
+    width: 60%;
+  }
+
+   .featured {
+    width: 100%;
+  }
+}
+/*
+@media only screen and (min-width: 1300px) {
+  .featured {
+    width: 100%;
+  }
+} */

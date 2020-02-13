@@ -2,7 +2,7 @@
 .index-container {
   padding: 20px;
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   /* height: auto; */
 }
 
@@ -47,11 +47,12 @@
   margin: 6px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
   .portfolio {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .project {
     position: relative;

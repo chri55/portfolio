@@ -12,14 +12,25 @@
 
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   width: 100%;
 }
 
 hr {
-  width: 60%;
+  width: 80%;
 }
 
 .spacer {
   margin: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  hr {
+    width: 75%;
+  }
+
 }
