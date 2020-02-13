@@ -20,7 +20,7 @@ function addTags(tags) {
 
 class PortfolioPage extends Component {
   render() {
-    if (!this.props.isPartiallyCurrent && this.props.isCurrent){
+    if (this.props.isPartiallyCurrent && this.props.isCurrent){
       return (
         <MainLayout>
           <div className="index-container">
