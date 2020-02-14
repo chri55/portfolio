@@ -4,6 +4,7 @@ const path = require("path");
 const _ = require("lodash");
 const moment = require("moment");
 const siteConfig = require("./data/SiteConfig");
+const portfolioItems = require("./src/components/Portfolio/Portfolio");
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
@@ -162,4 +163,19 @@ exports.createPages = async ({ graphql, actions }) => {
       context: { category }
     });
   });
+
+  createPage({
+    path: `/see-portfolio/`,
+    component: require.resolve('./src/templates/portfolio.jsx'),
+    context: { portfolioItems },
+  });
+
+  portfolioItems.forEach(portfolioItem => {
+    createPage({
+      path: `/portfolio/${portfolioItem.slug}/`,
+      component: require.resolve('./src/templates/portfolio_item.jsx'),
+      context: { portfolioItem },
+    });
+  });
+
 };
