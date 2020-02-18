@@ -9,7 +9,7 @@ class Header extends Component {
   render() {
     return(
       <header className="header">
-        <Link to="/"><h1>{config.siteTitle}</h1></Link>
+        <Link to="/"><h1 className="site-title">{config.siteTitle}</h1></Link>
         <div className="titles">
           <span className="job">Web Developer</span>
           <span className="spacer">•</span>

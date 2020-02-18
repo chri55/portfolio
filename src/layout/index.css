@@ -38,12 +38,12 @@ a {
 }
 
 a {
-  color: white;
+  color: #00ffa7;
   text-decoration: none;
 }
 
 a:visited {
-  color: white;
+  color: #00ffa7;
 }
 
 a:hover {

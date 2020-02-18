@@ -35,8 +35,10 @@ function renderPortfolio() {
     };
     return (
       <div className="project" key={`key-${title.split()[0]}`}>
-        <img src={`${previewImageLink}`} alt={`Screenshot of ${title}`} className="preview"/>
-        <Link to={`/portfolio/${slug}/`} state={{args}}>
+        <Link to={`/portfolio/${slug}/`}>
+          <img src={`${previewImageLink}`} alt={`Screenshot of ${title}`} className="preview"/>
+        </Link>
+        <Link to={`/portfolio/${slug}/`}>
           <h3 className="projectName">{ title }</h3>
         </Link>
         <p><span className="synopsis">{ synopsis }</span></p>
@@ -50,6 +52,18 @@ function renderPortfolio() {
   }).slice(0, 2);
 }
 
+function renderTechLogos(arr) {
+  return arr.map(item => {
+    return (
+      <div className="innerTech">
+        <object className="tech-logo" data={`https://cpt-images.s3.us-east-2.amazonaws.com/${item.toLowerCase()}.svg`} type='image/svg+xml'>
+        </object>
+        <h6>{`${item}`}</h6>
+      </div>
+    )
+  })
+}
+
 class IndexPage extends Component {
   render() {
     return (
@@ -61,6 +75,13 @@ class IndexPage extends Component {
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
+          </div>
+          <br/>
+          <div className="content">
+            <h2>Some Tech I Love</h2>
+            <div className="tech">
+              {renderTechLogos(["Gatsby", "React", "Sass", "GraphQL"])}
+            </div>
           </div>
           <br/>
           <div className="content">

@@ -5,6 +5,37 @@
   width: 90%;
   /* height: auto; */
 }
+.tech {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tech-logo {
+  width: 100px;
+  height: auto;
+  transform: scale(0.95);
+  transition: 0.4s;
+}
+
+.tech-logo:hover {
+  transform: scale(1);
+}
+
+.innerTech {
+  display:flex;
+  flex-direction: column;
+  align-content:center;
+  justify-content: flex-start;
+}
+
+#document svg {
+  max-height: 100px;
+}
+
+h6 {
+  margin: 0;
+}
 
 .showOnHover {
   display: absolute;
