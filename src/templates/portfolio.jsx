@@ -34,10 +34,10 @@ function renderPortfolio(items) {
         <a href={`${ link }`}>Link to project</a>
         <br/>
         <a href={`${ repo }`}>Github Repo for Project</a>
+        */}
         <ul className="tags">
           {addTags({tags})}
         </ul>
-        */}
       </div>
     )
   })

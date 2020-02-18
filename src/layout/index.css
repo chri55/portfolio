@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Lovelo Black";
+  src: url('../../static/fonts/Lovelo-Black.ttf');
+}
+
 :root {
   font-size: 1.3em;
   line-height: 1.5;
@@ -12,6 +17,37 @@ body {
   padding: 0;
   min-height: 100vh;
   width: 100%;
+  background-color: rgb(30, 34, 39);
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lovelo Black";
+}
+
+p,
+span,
+li,
+a {
+  font-family: "Lato";
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 #___gatsby #gatsby-focus-wrapper {

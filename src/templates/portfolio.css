@@ -1,6 +1,5 @@
 /* Index page specific css, not layout. */
 .index-container {
-  padding: 20px;
   margin: 0 auto;
   width: 90%;
   /* height: auto; */
@@ -29,6 +28,7 @@
   width: 100%;
   height: auto;
   margin: 0 auto;
+  border-radius: 6px;
 
 }
 
@@ -53,12 +53,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
   }
   .project {
     position: relative;
     width: calc(50% - (1.2em * 2));
-    padding: 1.2em;
     margin: 0;
     /* margin: 20px; */
   }

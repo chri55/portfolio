@@ -7,10 +7,17 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  width: 75vw;
 }
 
 .paging-container {
   min-width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+@media only screen and (min-width:1000px) {
+  .listing-container {
+    width: 50vw;
+  }
 }

@@ -10,6 +10,10 @@
   display: absolute;
 }
 
+.project {
+  margin-top: 25px;
+}
+
 /* .project {
   flex-basis: 400px;
   flex: 1;
@@ -27,13 +31,18 @@
 .project img {
   /* height: 40%; */
   width: 100%;
-  margin: 0 auto;
+  margin: -2px auto;
+  border-radius: 6px;
+  opacity: 1;
+  transition: 0.4s;
+}
 
+.project img:hover{
+  opacity: 0.6;
 }
 
 .tags {
   list-style-type: none;
-  margin: 2px;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
@@ -43,22 +52,34 @@
   padding: 3px;
   background-color: rgba(0, 220, 255, 0.2);
   border-radius: 3px;
-  color: rgba(0, 0, 255, 0.7);
+  color: rgba(255, 255, 255, 1);
   margin: 6px;
+  font-family: "Lovelo Black";
+  /* font-weight:; */
+  font-size: 0.75em;
+}
+
+.content,
+.portfolio {
+  width: 75vw;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 1000px) {
+  .content {
+    width: 75vw;
+  }
   .portfolio {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
   }
   .project {
     position: relative;
     width: calc(50% - (1.2em * 2));
-    padding: 1.2em;
     margin: 0;
+    margin-top: 25px;
     /* margin: 20px; */
   }
 }
