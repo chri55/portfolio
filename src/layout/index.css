@@ -64,3 +64,8 @@ a:hover {
   display: flex;
   flex-direction: column;
 }
+
+.bottom-spacer {
+  height: 70px;
+  width: 100%;
+}
