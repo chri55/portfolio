@@ -17,19 +17,20 @@ class Listing extends React.Component {
 
     return (
       <div className="paging-container">
-        {!isFirstPage && <Link to={prevPage}>Previous</Link>}
+        {!isFirstPage && <Link to={prevPage} partiallyActive={true} >Previous</Link>}
         {[...Array(pageCount)].map((_val, index) => {
           const pageNum = index + 1;
           return (
             <Link
               key={`listing-page-${pageNum}`}
-              to={pageNum === 1 ? "/blog/1/" : `/blog/${pageNum}/`}
+              to={pageNum === 1 ? "/blog/1/" : `/blog/${pageNum}/`} 
+              partiallyActive={true}
             >
               {pageNum}
             </Link>
           );
         })}
-        {!isLastPage && <Link to={nextPage}>Next</Link>}
+        {!isLastPage && <Link to={nextPage} partiallyActive={true} >Next</Link>}
       </div>
     );
   }
