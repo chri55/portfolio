@@ -10,6 +10,11 @@ import BlogIcon from '@bit/mui-org.material-ui-icons.book-rounded';
 
 class BottomNavigation extends Component {
   render() {
+    const isPartiallyActive = ({isPartiallyCurrent}) => {
+      return isPartiallyCurrent
+      ? { className: "active" }
+      : {}
+    }
     return (
       <div className="bottom-nav-root">
         <Link to='/' className='nav-link' activeClassName="active">
@@ -24,7 +29,7 @@ class BottomNavigation extends Component {
             <p>About</p>
           </div>
         </Link>
-        <Link to='/see-portfolio' className='nav-link' activeClassName="active">
+        <Link to='/portfolio' className='nav-link' activeClassName="active" getProps={isPartiallyActive}{...this.props}>
           <div className="nav-item">
             <PortfolioIcon></PortfolioIcon>
             <p>Portfolio</p>

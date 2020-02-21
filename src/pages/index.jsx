@@ -35,10 +35,10 @@ function renderPortfolio() {
     };
     return (
       <div className="project" key={`key-${title.split()[0]}`}>
-        <Link to={`/portfolio/${slug}/`}>
+        <Link to={`/portfolio/${slug}/`} partiallyActive={true}>
           <img src={`${previewImageLink}`} alt={`Screenshot of ${title}`} className="preview"/>
         </Link>
-        <Link to={`/portfolio/${slug}/`}>
+        <Link to={`/portfolio/${slug}/`} partiallyActive={true}>
           <h3 className="projectName">{ title }</h3>
         </Link>
         <p><span className="synopsis">{ synopsis }</span></p>
@@ -92,7 +92,7 @@ class IndexPage extends Component {
             {renderPortfolio()}
           </div>
           <div className="portfolio">
-            <Link to="/see-portfolio"><h3>See the rest of my portfolio ==></h3></Link>
+            <Link to="/portfolio/"><h3>See the rest of my portfolio ==></h3></Link>
           </div>
         </div>
       </MainLayout>

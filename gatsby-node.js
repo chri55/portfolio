@@ -165,7 +165,7 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 
   createPage({
-    path: `/see-portfolio/`,
+    path: `/portfolio/`,
     component: require.resolve('./src/templates/portfolio.jsx'),
     context: { portfolioItems },
   });
