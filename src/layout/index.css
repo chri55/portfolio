@@ -33,6 +33,10 @@ h4,
 h5,
 h6 {
   font-family: "Lovelo Black", sans-serif;
+  width: auto;
+  margin-top:0.75em;
+  margin-bottom:0.75em;
+  display:inline;
 }
 
 p,
@@ -45,14 +49,32 @@ a {
 a {
   color: #00ffa7;
   text-decoration: none;
+  display:inline-block;
+  margin-top:20px;
 }
 
 a:visited {
   color: #00ffa7;
 }
 
-a:hover {
+/* a:hover {
   text-decoration: underline;
+} */
+
+a::after {
+  content:"";
+  background-color: #00ffa7;
+  transform: scaleX(0);
+  transition: 250ms ease;
+  height: 2px;
+  display: block;
+  width:100%;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+a:hover::after {
+  transform: scaleX(1);
 }
 
 #___gatsby #gatsby-focus-wrapper {
@@ -70,7 +92,15 @@ a:hover {
   flex-direction: column;
 }
 
+/*spacer to account for bottom menu on mobile*/
 .bottom-spacer {
   height: 70px;
   width: 100%;
+  display:block;
+}
+
+@media only screen and (min-width:1000px) {
+  .bottom-spacer {
+    display:none;
+  }
 }

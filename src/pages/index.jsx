@@ -75,24 +75,24 @@ class IndexPage extends Component {
             <p>
               I'm Chris. I love to develop beautiful and responsive sites and present incredible user experiences. I have a versatile skillset -  ranging from creating static sites with HTML, CSS, and Javascript to creating robust web applications with React, Flask, and Django.
             </p>
-            <Link to="/about"><h3>Learn more about me! ==></h3></Link>
+            <Link to="/about"><h3>Learn more about me!</h3></Link>
           </div>
           <br/>
           <div className="content">
-            <h2>Some Tech I Love</h2>
+            <h2>Some Tech I Love To Use:</h2>
             <div className="tech">
               {renderTechLogos(["Gatsby", "React", "Sass", "GraphQL"])}
             </div>
           </div>
           <br/>
           <div className="content">
-            <h2>Some Examples:</h2>
+            <h2>Some Examples of my Work:</h2>
           </div>
           <div className="portfolio">
             {renderPortfolio()}
           </div>
           <div className="portfolio">
-            <Link to="/portfolio/"><h3>See the rest of my portfolio ==></h3></Link>
+            <Link to="/portfolio/"><h3>See the rest of my portfolio!</h3></Link>
           </div>
         </div>
       </MainLayout>
