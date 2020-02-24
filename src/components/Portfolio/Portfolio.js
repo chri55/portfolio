@@ -32,6 +32,28 @@ const portfolioItems = [
     tags: ["JavaScript", "HTML", "CSS", "D3.js", "Python", "Django", "Amazon Web Services"],
     slug: "search-evacuate-simulator",
   },
+  {
+    index: 4,
+    title: "Squid Bounce",
+    synopsis: "Pixi.js minigame inspired by Splatoon.",
+    description: "To help me learn JavaScript when I first began, I did this as a side project and used a fun little JS game engine called Pixi.js. Currently, it has infinite levels, increasing difficulty, and a point system based on how high you've gotten. In the future I hope to make some custom textures using pixel art for the lava that follows the player. I also plan to implement platforms that interact with the player differently, such as ice for sliding landings and conveyor belts to increase difficulty. Overall, I learned a lot about Pixi.js and JavaScript as a whole.",
+    link: "https://chri55.github.io/squid-bounce",
+    previewImageLink: "https://cpt-images.s3.us-east-2.amazonaws.com/squidBounceDemo.png",
+    repo: "https://github.com/chri55/squid-bounce",
+    tags: ["JavaScript", "HTML", "CSS", "Pixi.js"],
+    slug: "squid-bounce",
+  },
+  {
+    index: 5,
+    title: "WebCalc",
+    synopsis: "A vanilla JavaScript web calculator I made as a practice for The Odin Project.",
+    description: "As part of the curriculum for The Odin Project, a series of courses about web development, I was asked to make a calculator in JavaScript using no libraries. I learned some very important lessons about how postfix notation is parsed and used in calculations. This currently support multi-operator expressions, decimal point numbers, and the 4 basic math functions.",
+    link: "https://chri55.github.io/webcalculator",
+    previewImageLink: "https://cpt-images.s3.us-east-2.amazonaws.com/webcalcDemo.png",
+    repo: "https://github.com/chri55/webcalculator",
+    tags: ["JavaScript", "HTML", "CSS"],
+    slug: "web-calculator",
+  },
 ];
 
 module.exports = portfolioItems;
