@@ -1,7 +1,9 @@
 .footer {
+  display:flex;
   justify-content: center;
   align-content: center;
-  padding: 10px 5px 5px;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .notice-container {
@@ -11,6 +13,7 @@
   align-content: center;
   align-items: center;
   margin-top: 25px;
+  width: 80vw;
 }
 
 @media (max-width: 640px - 1px) {
@@ -19,7 +22,16 @@
   }
 }
 
-.notice-container h4 {
+.notice-container h5 {
   text-align: center;
   margin: 0;
+}
+
+@media only screen and (min-width:1000px){
+  .footer {
+    margin-bottom: 40px;
+  }
+  .notice-container {
+    width: 75vw;
+  }
 }

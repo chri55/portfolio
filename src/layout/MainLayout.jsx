@@ -2,6 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 import config from "../../data/SiteConfig";
 import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 import BottomNavigation from "../components/BottomNavigation/BottomNavigation";
 import "./index.css";
 
@@ -16,7 +17,7 @@ export default class MainLayout extends React.Component {
         </Helmet>
         <Header />
         {children}
-        <footer>Contact me</footer>
+        <Footer config={config}>Contact me</Footer>
         <section className="bottom-spacer"></section>
         <BottomNavigation></BottomNavigation>
       </div>
