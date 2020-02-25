@@ -91,6 +91,7 @@ class IndexPage extends Component {
           <div className="portfolio">
             {renderPortfolio()}
           </div>
+          <br></br>
           <div className="portfolio">
             <Link to="/portfolio/"><h3>See the rest of my portfolio!</h3></Link>
           </div>

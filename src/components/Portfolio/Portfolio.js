@@ -1,7 +1,7 @@
 const portfolioItems = [
   {
     index: 1,
-    title: "Rutgers Camden ACM Website",
+    title: "Rutgers Camden ACM",
     synopsis: "Club website made during my time as Webmaster of the Rutgers ACM Camden Chapter.",
     description: "Made in Flask.",
     link: "https://github.com/rutgersacm/ruc-acm",
@@ -23,7 +23,7 @@ const portfolioItems = [
   },
   {
     index: 3,
-    title: "Search-and-Evacuation Algorithm Simulator",
+    title: "Algorithm Simulator",
     synopsis: "Research on distributed algorithms for mobile agents on a  geometric field.",
     description: "I collaborated on this project during my time as a research assistant at the Rutgers University CCIB. The aim was to build an application to simulate and visualize search-and-evacuate algorithms for mobile agents in a known geometry. We started with simulations on a disk, and from there moved to other regular polygons and the 1-dimensional line. The original was written in Javascript with D3.js, and later we rewrote the backend to utilize Python for the data simulation. (NOTE: The repo for this project is private as it belongs to Rutgers.)",
     link: "https://dbushta.github.io/BotAlgorithms/disk/circleShowcase.html",
@@ -53,6 +53,17 @@ const portfolioItems = [
     repo: "https://github.com/chri55/webcalculator",
     tags: ["JavaScript", "HTML", "CSS"],
     slug: "web-calculator",
+  },
+  {
+    index: 6,
+    title: "Web Developer Portfolio",
+    synopsis: "This website. Powered mainly by Gatsby and React.",
+    description: "My senior project in my Digital Studies curriculum was to create my own website, from getting and setting up my own URL to hosting the site itself. For my URL, I used Amazon Web Services Route 53 service to buy and manage the domain. This site is also hosted on Netlify. This project was a great intro to React and Gatsby, and I got to learn some other new technology such as PostCSS and GraphQL. I picked a website to feature a blog as well as my portfolio, so I could post my writings from my  Digital Studies classes and my personal research and learning endeavours.",
+    link: "#",
+    previewImageLink: "https://cpt-images.s3.us-east-2.amazonaws.com/portfolioDemo.png",
+    repo: "https://github.com/chri55/portfolio",
+    tags: ["JavaScript", "HTML", "CSS", "React", "Gatsby", "PostCSS", "GraphQL", "Amazon Web Services"],
+    slug: "portfolio-website",
   },
 ];
 

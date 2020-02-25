@@ -6,6 +6,7 @@
   "dependencies": {
     "@bit/mui-org.material-ui-icons.book-rounded": "^3.9.2",
     "@bit/mui-org.material-ui-icons.home-rounded": "^3.9.2",
+    "@bit/mui-org.material-ui-icons.navigate-before-sharp": "^3.9.2",
     "@bit/mui-org.material-ui-icons.perm-identity-sharp": "^3.9.2",
     "@bit/mui-org.material-ui-icons.photo": "^3.9.2",
     "@bit/mui-org.material-ui.bottom-navigation": "^4.5.2",

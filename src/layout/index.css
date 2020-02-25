@@ -34,9 +34,8 @@ h5,
 h6 {
   font-family: "Lovelo Black", sans-serif;
   width: auto;
-  margin-top:0.75em;
-  margin-bottom:0.75em;
-  display:inline;
+  margin-top:0.25em;
+  margin-bottom:0.25em;
 }
 
 p,
@@ -50,7 +49,6 @@ a {
   color: #00ffa7;
   text-decoration: none;
   display:inline-block;
-  margin-top:20px;
 }
 
 a:visited {
