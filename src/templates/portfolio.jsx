@@ -68,7 +68,7 @@ class PortfolioPage extends Component {
       <div className="index-container">
         <Helmet title={`${config.siteTitle}`}/>
         <div className="portfolio">
-          <p>Below are a few of the projects I've worked on!</p>
+          <h2>Portfolio</h2>
         </div>
         <div className="portfolio">
           {renderPortfolio(this.props.pageContext.portfolioItems)}
