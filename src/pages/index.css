@@ -104,6 +104,11 @@ h6 {
   margin-bottom: 15px;
 }
 
+.no-underline::after {
+  content: "";
+  height: 0px;
+}
+
 @media screen and (min-width: 1000px) {
   .content {
     width: 75vw;

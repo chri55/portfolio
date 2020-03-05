@@ -39,7 +39,7 @@ function renderPortfolio(items) {
     }
 
     return (<div className="project" key={`key-${title.split()[0]}`}>
-      <Link to={`/portfolio/${slug}/`} partiallyActive={true} >
+      <Link class="no-underline" to={`/portfolio/${slug}/`} partiallyActive={true} >
         <img src={`${previewImageLink}`} alt={`Screenshot of ${title}`} className="preview"/>
       </Link>
       <Link to={`/portfolio/${slug}/`} partiallyActive={true}>

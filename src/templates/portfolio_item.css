@@ -62,9 +62,26 @@ hr.divider {
     align-self: center;
   }
 }
-/*
-@media only screen and (min-width: 1300px) {
-  .featured {
-    width: 100%;
+
+.project-link {
+  background-color: #00ffa7;
+  color: rgb(30, 34, 39);
+  padding: 7px;
+  margin: 20px;
+  border-radius: 7px;
+  box-shadow: 7px 7px rgb(100, 100, 100);
+  transition: 0.25s;
+}
+
+.project-link:hover {
+  opacity: 0.8;
+  box-shadow: 6px 6px rgb(100, 100, 100);
+}
+
+@media only screen and (min-width: 1000px) {
+  .portfolio-container {
+    margin: 0 auto;
+    width: 75vw;
+    padding: 20px;
   }
-} */
+}
