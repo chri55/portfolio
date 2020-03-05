@@ -11,7 +11,7 @@ function addTags(tags) {
   console.log(tags);
   return (tags.tags.map((elem) => {
     console.log(elem);
-    return (<li className="tag" key={`key-${elem.split()[0]}`}>
+    return (<li className="tagwhite" key={`key-${elem.split()[0]}`}>
       <span>{elem}</span>
     </li>);
   }));
