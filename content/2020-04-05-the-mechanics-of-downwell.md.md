@@ -16,6 +16,8 @@ tags:
 ---
 <!--StartFragment-->
 
+![](assets/downwell.jpg)
+
 At its core, Downwell is a simple game. It has all the mechanics that make other platformers seem easy to those who are used to them, but it introduces a new twist on the sideways platformer genre. Instead of going from left to right, the player traverses through the levels top to bottom. The goal of Downwell is to get to the bottom of each level by navigating through obstacles and monsters, and keeping the health bar up so you have a better chance of surviving until the end, otherwise you have to start from the beginning again. Throughout the levels, the player gets upgrades that can be necessary, but not always helpful.
 
 The game is full of different items, mostly acquired at the end of a level or in a special area during the level. First, there are the Gunboots, which are the main item of the game and are used to shoot downwards and kill enemies. There are also gems which are the currency of the game. The player gets these through killing enemies and potentially through breaking blocks and such in the world, and they can be spent at shops which appear during the level. These shops usually have items that can be exchanged for gems, and refill the player’s health or give them more ammo in the Gunboots. Occasionally, the player will come across a special area with a Gunboots upgrade. This will give the player a bit of health or extra ammo, but change the way the Gunboots fire. There are seven of these upgrades or “modules'' that can appear. Finally, at the end of each level, the player gets to choose a character upgrade from a list of a random three. These can be things such as an extra point of health total, ability to create a safe bubble when hit by an enemy, or even a jetpack to slow the player’s fall when they run out of bullets in midair.
@@ -37,7 +39,5 @@ The upgrade system in the game sometimes makes the player sacrifice some of the 
 Finally, there is the mechanic of “styles”. These styles change things about how the world generates and what happens to the player. For example, besides the Usual style, there is the style called Arm Spin, which causes the world to only generate gun module rooms, and makes shops very rare, so in this mode, most of the player’s health is gained from choosing gun modules and revolves around which gun module the player currently has. There is also Boulder style, which increases the player’s total health, but decreases the amount of upgrades they can choose from at the end of a level. These styles give advantages and disadvantages that a player can use to their benefit, for example if they are good with all the gun modules, then Arm Spin would be good to choose, because it revolves heavily around upgrades acquired through the gun modules.
 
 Overall, the mechanics and aesthetics of Downwell are mainly about survival. Choosing the best upgrade for your style of play, choosing the right modules and spending gems wisely to regain health or more ammo are all vital to your long term survival in a round of this game.
-
-
 
 <!--EndFragment-->
