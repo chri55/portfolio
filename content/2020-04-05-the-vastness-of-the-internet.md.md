@@ -14,6 +14,8 @@ tags:
 ---
 <!--StartFragment-->
 
+![](assets/Internet_Vastness_2_Kruger_CT-1.png)
+
 In my Multimedia Thinking class for RU-C's Digital Studies major, we were instructed to come up with a theme to surround our projects for the semester. For these projects, I created a "comic", an art piece, a soundscape, and a video essay.
 
 The concept I am choosing to explore is the fact that the internet, while it is an incredible tool for preserving history, can be incredibly vast and swallow up information, occasionally having the opposite effect. The internet is used all around the world at all hours of the day, and as such a lot of content is being created on it, and this has led to an effect where information tends to get lost in a sea of content and subsequently forgotten about. Similarly, information can literally get lost due to servers going down, or websites changing and thus being harder or not possible to find anymore.
@@ -26,14 +28,10 @@ These two ideas, to me, really highlight the concept of just how vast and deep t
 
 ### The Comic
 
-![Comic depicting how a lot of the content on the internet will end up in a "black hole" so to speak.](assets/Internet Vastness Comic CT-1.png "Comic depicting how a lot of the content on the internet will end up in a \"black hole\" so to speak.")
+![Comic depicting how a lot of the content on the internet will end up in a "black hole" so to speak.](assets/Internet Vastness Comic CT-1.png "Comic depicting how a lot of the content on the internet will end up in a \\"black hole\\" so to speak.")
 
 The idea behind this piece was to portray all the different aspects of the internet, and how they will all most likely end up in this "black hole", somewhere where no human really needs to or cares to go. It may be archived for later use, but that archive may never benefit us. I call this a "comic" because it doesn't really follow a linear story; it is more so one large idea separated by these panels. 
 
 ### The Art Piece
-
-
-
-
 
 <!--EndFragment-->
