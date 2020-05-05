@@ -26,7 +26,7 @@ class BottomNavigation extends Component {
         <Link to='/about' className='nav-link' activeClassName="active">
           <div className="nav-item">
             <AboutIcon></AboutIcon>
-            <p>About</p>
+            <p>Resume</p>
           </div>
         </Link>
         <Link to='/portfolio' className='nav-link' activeClassName="active" getProps={isPartiallyActive}{...this.props}>
