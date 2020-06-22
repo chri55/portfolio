@@ -25,7 +25,7 @@ class AboutPage extends Component {
           </div>
           <div className="content">
             <h2>Resume</h2>
-            <a href="#link-to-resume">My resume can also be downloaded as a PDF.</a>
+            <a href="https://cpt-images.s3.us-east-2.amazonaws.com/Resume.pdf">My resume can also be downloaded as a PDF.</a>
             <br></br>
             <br></br>
             <h3>Skills</h3>
