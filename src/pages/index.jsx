@@ -75,7 +75,9 @@ class IndexPage extends Component {
             <p>
               I'm Chris. I love to develop beautiful and responsive sites and present incredible user experiences. I have a versatile skillset -  ranging from creating static sites with HTML, CSS, and Javascript to creating robust web applications with React, Flask, and Django.
             </p>
+            
             <Link to="/about"><h3>See my resume!</h3></Link>
+            <p><Link to="https://github.com/chri55">Connect with me on GitHub.</Link></p>
           </div>
           <br/>
           <div className="content">
