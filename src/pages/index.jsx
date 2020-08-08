@@ -77,7 +77,7 @@ class IndexPage extends Component {
             </p>
             
             <Link to="/about"><h3>See my resume!</h3></Link>
-            <p><Link to="https://github.com/chri55">Connect with me on GitHub.</Link></p>
+            <p><a href="https://github.com/chri55">Connect with me on GitHub.</a></p>
           </div>
           <br/>
           <div className="content">
