@@ -81,7 +81,7 @@ class IndexPage extends Component {
           </div>
           <br/>
           <div className="content">
-            <h2>Some Tech I Love To Use:</h2>
+            <h2>Some Tools I Like To Use:</h2>
             <div className="tech">
               {renderTechLogos(["Gatsby", "React", "Sass", "GraphQL"])}
             </div>
