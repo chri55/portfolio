@@ -5,13 +5,12 @@
   "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
   "dependencies": {
     "@bit/mui-org.material-ui-icons.book-rounded": "^3.9.2",
+    "@bit/mui-org.material-ui-icons.home": "^3.9.2",
     "@bit/mui-org.material-ui-icons.home-rounded": "^3.9.2",
+    "@bit/mui-org.material-ui-icons.navigate-before": "^3.9.2",
     "@bit/mui-org.material-ui-icons.navigate-before-sharp": "^3.9.2",
     "@bit/mui-org.material-ui-icons.perm-identity-sharp": "^3.9.2",
     "@bit/mui-org.material-ui-icons.photo": "^3.9.2",
-    "@bit/mui-org.material-ui.bottom-navigation": "^4.5.2",
-    "@bit/mui-org.material-ui.bottom-navigation-action": "^4.5.2",
-    "@bit/mui-org.material-ui.styles": "^4.5.2",
     "autoprefixer": "^9.7.4",
     "gatsby": "^2.19.19",
     "gatsby-cli": "^2.8.30",
@@ -92,10 +91,5 @@
     "plugins": [
       "remark-preset-lint-recommended"
     ]
-  },
-  "bit": {
-    "env": {},
-    "componentsDefaultDirectory": "components/{name}",
-    "packageManager": "npm"
   }
 }

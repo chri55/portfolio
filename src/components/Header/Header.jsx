@@ -11,9 +11,9 @@ class Header extends Component {
       <header className="header">
         <h1 className="site-title">{config.siteTitle}</h1>
         <div className="titles">
-          <span className="job">Web Developer</span>
+          <span className="job">Software Engineer</span>
           <span className="spacer">•</span>
-          <span className="job">Frontend Designer</span>
+          <span className="job">UI/UX Designer</span>
         </div>
         <hr/>
       </header>
