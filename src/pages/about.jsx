@@ -18,9 +18,9 @@ class AboutPage extends Component {
             </div>
             <h2>About Me</h2>
             <p>I love to develop beautiful and responsive sites and present incredible user experiences. I have a versatile skillset -  ranging from creating static sites with <strong>HTML, CSS, and Javascript</strong> to creating robust web applications with <strong>React, Flask, and Django.</strong>
-            <br/>
-            <br/>
-            Currently, I work as a researcher at Rutgers University-Camden for two different departments: The Center for Computational and Integrative Biology (CCIB), and the Digital Studies Center (DiSC). Through these jobs, I got to learn vital web developemnt skills and take on collaborative projects well beyond the scope of what I could do alone.
+              <br />
+              <br />
+            Currently, I work as a Junior Developer at <a href="https://www.btbsecurity.com/">BTB Security</a> creating SIEM solutions.
             </p>
           </div>
           <div className="content">
@@ -46,6 +46,11 @@ class AboutPage extends Component {
             </div>
             <br></br>
             <h3>Experience</h3>
+            <h4 className="exp"><strong>Junior Developer (BTB Security)</strong></h4>
+            <p className="exp light"><em>November 2020 - Present</em></p>
+            <p className="exp">Creating and implementing solutions and integrations for BTB's Managed Detection and Response service, called RADAR®. I get to use a lot of Go and have learned a great deal of backend programming best practices as a result of this.</p>
+            <p className="exp"></p>
+            <br></br>
             <h4 className="exp"><strong>Researcher (DiSC)</strong></h4>
             <p className="exp light"><em>January 2019 - May 2020</em></p>
             <p className="exp">Worked for the Rutgers Camden Digital Studies Center (DiSC) researching harassment of online personalities. Specifically, we researched an "AI influencer" personality on Instagram that claimed to be a robot. In reality, a company was behind this character and that character was simply a 3D model set into the scenarios in her pictures. As a result, this character got a lot of harassment on Instagram, and our job was to collect and analyze the comments to determine how online harassment shown to these virtual entities was different to that shown to humans. More info can be found on <a href="http://club-405.com">Club 405's website.</a></p>

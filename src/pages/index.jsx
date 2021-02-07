@@ -11,7 +11,7 @@ function addTags(tags) {
   console.log(tags);
   return (tags.tags.map((elem) => {
     console.log(elem);
-    return(
+    return (
       <li className="tagwhite" key={`key-${elem.split()[0]}`}>
         <span>{elem}</span>
       </li>
@@ -20,7 +20,7 @@ function addTags(tags) {
 }
 
 function renderPortfolio() {
-  return portfolioItems.map(({index, title, synopsis, description, link, repo, previewImageLink, tags, slug}) => {
+  return portfolioItems.map(({ index, title, synopsis, description, link, repo, previewImageLink, tags, slug }) => {
     console.log(title);
     const args = {
       index,
@@ -36,16 +36,16 @@ function renderPortfolio() {
     return (
       <div className="project" key={`key-${title.split()[0]}`}>
         <Link class="no-underline" to={`/portfolio/${slug}/`} partiallyActive={true}>
-          <img src={`${previewImageLink}`} alt={`Screenshot of ${title}`} className="preview"/>
+          <img src={`${previewImageLink}`} alt={`Screenshot of ${title}`} className="preview" />
         </Link>
         <Link to={`/portfolio/${slug}/`} partiallyActive={true}>
-          <h3 className="projectName">{ title }</h3>
+          <h3 className="projectName">{title}</h3>
         </Link>
-        <p><span className="synopsis">{ synopsis }</span></p>
-        <a href={`${ link }`}>Link to project</a>
-        <br/>
+        <p><span className="synopsis">{synopsis}</span></p>
+        <a href={`${link}`}>Link to project</a>
+        <br />
         <ul className="tags">
-          {addTags({tags})}
+          {addTags({ tags })}
         </ul>
       </div>
     )
@@ -69,24 +69,24 @@ class IndexPage extends Component {
     return (
       <MainLayout>
         <div className="index-container">
-          <Helmet title={ `${config.siteTitle}` } />
+          <Helmet title={`${config.siteTitle}`} />
           <div className="content">
             <h2>Hi!</h2>
             <p>
               I'm Chris. I love to develop beautiful and responsive sites and present incredible user experiences. I have a versatile skillset -  ranging from creating static sites with HTML, CSS, and Javascript to creating robust web applications with React, Flask, and Django.
             </p>
-            
+
             <Link to="/about"><h3>See my resume!</h3></Link>
             <p><a href="https://github.com/chri55">Connect with me on GitHub.</a></p>
           </div>
-          <br/>
+          <br />
           <div className="content">
             <h2>Some Tools I Like To Use:</h2>
             <div className="tech">
-              {renderTechLogos(["Gatsby", "React", "Sass", "GraphQL"])}
+              {renderTechLogos(["Go", "JS", "JSX", "HTML", "Gatsby", "React", "Sass", "GraphQL"])}
             </div>
           </div>
-          <br/>
+          <br />
           <div className="content">
             <h2>Some Examples of my Work:</h2>
           </div>
