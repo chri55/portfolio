@@ -8,4 +8,4 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    X-Clacks-Overhead: "GNU Terry Pratchett"
+    X-Clacks-Overhead = "GNU Terry Pratchett"
