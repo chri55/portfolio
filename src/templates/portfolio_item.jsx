@@ -10,16 +10,13 @@ import "./portfolio.css";
 import "./portfolio_item.css";
 
 function addTags(tags) {
-  console.log(tags);
   return tags.map((elem) => {
-    console.log(elem);
     return <li key={`key-${elem.split()[0]}`}>{elem}</li>;
   });
 }
 
 class PortfolioPage extends Component {
   render() {
-    console.log(this.props);
     return (
       <MainLayout>
         <div className="portfolio-container">
