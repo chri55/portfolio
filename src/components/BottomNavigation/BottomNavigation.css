@@ -10,7 +10,7 @@
   justify-content: space-between;
   flex-grow: stretch;
   background-color: rgb(30, 34, 39);
-  color: white;
+  color: #e0e0e0;
   max-height: 56px;
   z-index: 9998;
 }
@@ -20,11 +20,11 @@
 }
 
 .nav-link * {
-  color: white;
+  color: #e0e0e0;
 }
 
 .active * {
-  color: #00ffa7;
+  color: #76C893;
 }
 
 .nav-item {

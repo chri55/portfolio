@@ -17,10 +17,13 @@ class AboutPage extends Component {
               <img class="prof" src="https://cpt-images.s3.us-east-2.amazonaws.com/chris-min.jpg" />
             </div>
             <h2>About Me</h2>
-            <p>I love to develop beautiful and responsive sites and present incredible user experiences. I have a versatile skillset -  ranging from creating static sites with <strong>HTML, CSS, and Javascript</strong> to creating robust web applications with <strong>React, Flask, and Django.</strong>
+            <p>I love to develop beautiful, responsive sites and
+              present incredible user experiences. I have a versatile skillset -
+              ranging from creating static sites with HTML, CSS, and Javascript
+              to creating robust web applications with <strong>React, GraphQL, SQL and more!</strong>
               <br />
               <br />
-            Currently, I work as a Junior Developer at <a href="https://www.btbsecurity.com/">BTB Security</a> creating SIEM solutions.
+            Currently, I work as Software Engineer II at <a href="https://reachify.io">Reachify</a> making call deflection software to help restaurants focus on the food.
             </p>
           </div>
           <div className="content">
@@ -39,14 +42,19 @@ class AboutPage extends Component {
                 <li>Site Troubleshooting</li>
                 <li>Information Architecture</li>
                 <li>Cross-browser compatibility</li>
-                <li>Multimedia Designing</li>
+                <li>Multimedia Designs</li>
               </ul>
             </div>
             <br></br>
             <h3>Experience</h3>
-            <h4 className="exp"><strong>Junior Developer (BTB Security)</strong></h4>
-            <p className="exp light"><em>November 2020 - Present</em></p>
-            <p className="exp">Creating and implementing solutions and integrations for BTB's Managed Detection and Response service, called RADAR®. I get to use a lot of Go and have learned a great deal of backend programming best practices as a result of this.</p>
+            <h4 className="exp"><strong>Software Engineer II (Reachify)</strong></h4>
+            <p className="exp light"><em>July 2022 - Present</em></p>
+            <p className="exp">Currently I am developing solutions for Reachify's call deflection self-management portal that allows customers to create dynamic call flows for their phone systems and answer customer questions automatically. I created and shipped many features of the platform prior to release, utilizing many front- and back-end technologies, including React, Node, GraphQL and PostgreSQL.</p>
+            <p className="exp"></p>
+            <br></br>
+            <h4 className="exp"><strong>Software Engineer (BTB Security)</strong></h4>
+            <p className="exp light"><em>November 2020 - July 2022</em></p>
+            <p className="exp">Created and implemented solutions and integrations for BTB's Managed Detection and Response service, called RADAR®. Led a project to redesign the user interface from the ground up, migrating from an outdated Angular implementation to a modern React framework. Implemented back-end services in Go and PHP.</p>
             <p className="exp"></p>
             <br></br>
             <h4 className="exp"><strong>Researcher (DiSC)</strong></h4>
