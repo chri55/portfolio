@@ -89,7 +89,7 @@ function renderTechLogos(arr, maxLen = 8) {
 
 class IndexPage extends Component {
   render() {
-    const isMobile = window.innerWidth < 1000;
+    const isMobile = window?.innerWidth < 1000;
     return (
       <MainLayout>
         <div className="index-container">
