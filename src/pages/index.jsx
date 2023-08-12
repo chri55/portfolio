@@ -8,9 +8,9 @@ import config from "../../data/SiteConfig";
 import "./index.css";
 
 function addTags(tags) {
-  return tags.tags.map((elem) => {
+  return tags.tags.map((elem, i) => {
     return (
-      <li className="tagwhite" key={`key-${elem.split()[0]}`}>
+      <li className={`tagwhite ${i === 0 && 'first'} ${i === tags.tags.length - 1 && 'last'}`} key={`key-${elem.split()[0]}`}>
         <span>{elem}</span>
       </li>
     );
@@ -61,7 +61,7 @@ function renderPortfolio() {
             <p>
               <span className="synopsis">{synopsis}</span>
             </p>
-            <a href={`${link}`}>Link to project</a>
+            <a href={`${link}`} className="external-portfolio-link">Link to project</a>
             <br />
             <ul className="tags">{addTags({ tags })}</ul>
           </div>
@@ -71,8 +71,9 @@ function renderPortfolio() {
     .slice(0, 2);
 }
 
-function renderTechLogos(arr) {
-  return arr.map((item) => {
+function renderTechLogos(arr, maxLen = 8) {
+  if (arr.length < maxLen) maxLen = arr.length;
+  return arr.slice(0, maxLen).map((item) => {
     return (
       <div className="innerTech">
         <object
@@ -88,6 +89,7 @@ function renderTechLogos(arr) {
 
 class IndexPage extends Component {
   render() {
+    const isMobile = window.innerWidth < 1000;
     return (
       <MainLayout>
         <div className="index-container">
@@ -95,10 +97,10 @@ class IndexPage extends Component {
           <div className="content">
             <h2>Hi!</h2>
             <p>
-              I'm Chris. I love to develop beautiful and responsive sites and
+              I'm Chris. I love to develop beautiful, responsive sites and
               present incredible user experiences. I have a versatile skillset -
               ranging from creating static sites with HTML, CSS, and Javascript
-              to creating robust web applications with React, Flask, and Django.
+              to creating robust web applications with React, GraphQL, SQL and more!
             </p>
 
             <Link to="/about">
@@ -113,15 +115,16 @@ class IndexPage extends Component {
             <h2>Some Tools I Like To Use:</h2>
             <div className="tech">
               {renderTechLogos([
-                "Go",
+                "React",
+                "GraphQL",
+                "Redux",
+                "PostgreSQL",
                 "JS",
+                "CSS",
                 "JSX",
                 "HTML",
                 "Gatsby",
-                "React",
-                "Sass",
-                "GraphQL",
-              ])}
+              ], isMobile ? 9 : 8)}
             </div>
           </div>
           <br />

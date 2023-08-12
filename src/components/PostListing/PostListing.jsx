@@ -29,7 +29,7 @@ class PostListing extends React.Component {
             <Link to={post.path} key={post.title} partiallyActive={true}>
               <h2 className="post-title">{post.title}</h2>
             </Link>
-            <p>{post.excerpt}</p>
+            <p className="post-excerpt">{post.excerpt}</p>
           </React.Fragment>
         ))}
       </div>
